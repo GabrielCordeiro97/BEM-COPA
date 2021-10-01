@@ -1,0 +1,305 @@
+@charset "UTF-8";
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://static3.tcdn.com.br/img/img_prod/580806/outlet_2_rolos_de_papel_de_parede_calcadao_de_copacabana_0_58_x_3_00_metros_7311_1_20210623174146.jpg");
+  padding: 20px 0;
+  border-bottom: 3px solid black;
+  display: flex;
+}
+.header__box {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.header__imagemLogo {
+  max-width: 20%;
+  min-width: 200px;
+  display: flex;
+  flex-shrink: 0;
+}
+.header__imagemLogo:hover {
+  max-width: 21%;
+}
+.header .nav {
+  display: flex;
+  align-items: center;
+}
+.header .nav__navegaçao {
+  display: flex;
+}
+.header .nav__li {
+  margin: 10px;
+}
+.header .nav__a {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #524004;
+  background-color: #ffd700;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.header .nav__a:hover {
+  color: #09f0e4;
+  background-color: #2763bd;
+  font-size: 35px;
+  padding: 8px;
+}
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__principal {
+  display: flex;
+}
+.main__textoPrincipal {
+  display: flex;
+  flex-direction: column;
+  background-color: #fcdc9d;
+  padding: 30px 40px;
+  align-items: center;
+  width: 70%;
+}
+.main__titulo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.main__texto {
+  font-size: 1.3rem;
+  padding: 20px 0;
+  text-align: justify;
+}
+.main__foto-principal {
+  max-width: 60%;
+  margin: 20px 0 0 0;
+  border: 1px solid black;
+}
+.main .sidebar {
+  width: 30%;
+  background-color: #fcdc9d;
+  padding: 50px 50px;
+}
+.main .sidebar__cadastro {
+  border: 3px solid black;
+  background: linear-gradient(#ffdf2d83, #47360080);
+}
+.main .sidebar__top {
+  background-color: #524004;
+  color: #ffd700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  padding: 10px 0;
+}
+.main .sidebar__texto-cadastro {
+  padding: 10px;
+}
+.main .sidebar__p {
+  padding: 5px 0;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+.main .sidebar__dados {
+  padding: 6px 0 0 0;
+  font-size: 1.1rem;
+}
+.main .sidebar__button {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main .sidebar__btn {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #524004;
+  background-color: #ffd700;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+.main .sidebar__btn:hover {
+  color: #09f0e4;
+  background-color: #2763bd;
+  font-size: 1.8rem;
+  padding: 6px;
+}
+.main__wave {
+  width: 1000px;
+  background: url(.imgwave.png);
+}
+.main .mapa {
+  padding: 3em 0;
+  background-color: #2763bd;
+}
+.main .mapa__conteudo {
+  width: auto;
+  display: flex;
+  margin: 30px 50px 0 50px;
+  justify-content: space-evenly;
+}
+.main .mapa__titulo {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #9adaff;
+}
+.main .mapa__p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #9adaff;
+}
+.main .mapa__borda {
+  background: #9adaff;
+  width: 2px;
+  margin: 0 20px;
+}
+.main .mapa__corpo {
+  display: flex;
+  flex-shrink: 2;
+}
+
+.footer {
+  text-align: center;
+  height: 100px;
+  padding: 80px;
+  background-color: #020757;
+}
+.footer__copyright {
+  color: #09f0e4;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+/* CSS PAGINA SOBRE */
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 4px solid #000000;
+  border-radius: 20px;
+}
+
+.produtos li:hover {
+  border-color: #CCFF00;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos li:active {
+  border-color: #1b02fc;
+}
+
+.produtos h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.descriçao {
+  font-size: 18px;
+}
+
+.preço {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* CSS PAGINA CONTATO */
+form {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  font-size: 20px;
+  margin: 20px auto 10px auto;
+}
+
+form legend {
+  display: block;
+  font-size: 20px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+fieldset {
+  margin-top: 30px;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 70px auto 70px auto;
+}
+
+thead {
+  background-color: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+
+/* CSS MEDIA */
+@media screen and (max-width: 768px) {
+  .header__box {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav__navegaçao {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav__li {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
