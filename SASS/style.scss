@@ -169,7 +169,7 @@ $imgpath: "img";
 
     .mapa {
         padding: 3em 0;
-        background: linear-gradient(to bottom, white, #2763bd 10%);
+        background: linear-gradient(to bottom, rgb(255, 0, 0), #2763bd 10%);
         &__conteudo {
             width: auto;
             display: flex;
