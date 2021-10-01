@@ -112,7 +112,7 @@ $imgpath: "img";
 
         &__cadastro {
             border: $border;
-            background: linear-gradient(#ffdf2d83, #47360080);
+            background: linear-gradient(to bottom right,#ffdf2d83, #47360080);
         }
 
         &__top {
@@ -167,17 +167,9 @@ $imgpath: "img";
         }
     }
 
-    &__wave {
-        width: 1000px;
-        background: url(.\img\wave.png)
-
-    }
-
-
     .mapa {
         padding: 3em 0;
-        background-color: $blue;
-
+        background: linear-gradient(to bottom, white, #2763bd 10%);
         &__conteudo {
             width: auto;
             display: flex;

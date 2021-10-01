@@ -84,7 +84,7 @@
 }
 .main .sidebar__cadastro {
   border: 3px solid black;
-  background: linear-gradient(#ffdf2d83, #47360080);
+  background: linear-gradient(to bottom right, #ffdf2d83, #47360080);
 }
 .main .sidebar__top {
   background-color: #524004;
@@ -130,13 +130,9 @@
   font-size: 1.8rem;
   padding: 6px;
 }
-.main__wave {
-  width: 1000px;
-  background: url(.imgwave.png);
-}
 .main .mapa {
   padding: 3em 0;
-  background-color: #2763bd;
+  background: linear-gradient(to bottom, white, #2763bd 10%);
 }
 .main .mapa__conteudo {
   width: auto;
