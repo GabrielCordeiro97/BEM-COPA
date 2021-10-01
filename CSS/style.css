@@ -132,7 +132,7 @@
 }
 .main .mapa {
   padding: 3em 0;
-  background: linear-gradient(to bottom, white, #2763bd 10%);
+  background: linear-gradient(to bottom, red, #2763bd 10%);
 }
 .main .mapa__conteudo {
   width: auto;
